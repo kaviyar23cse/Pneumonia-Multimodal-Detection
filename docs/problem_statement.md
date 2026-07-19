@@ -1,16 +1,7 @@
-# Problem Statement
+# 📌 Problem Statement
 
-Pneumonia is a serious respiratory disease that affects millions of people worldwide.
+Pneumonia is one of the leading causes of respiratory illness worldwide and can result in severe health complications if not diagnosed and treated at an early stage. Conventional diagnosis of pneumonia from chest X-ray images requires experienced radiologists and is often time-consuming, particularly in healthcare facilities with limited medical resources. Furthermore, diagnosis based solely on imaging may not fully utilize valuable clinical information available from patients.
 
-Traditional diagnosis requires expert radiologists and can be time-consuming.
+To address these challenges, there is a need for an intelligent and explainable diagnostic system that can automatically analyze chest X-ray images along with patient clinical data to improve the accuracy and reliability of pneumonia detection. In addition to identifying the presence of pneumonia, the system should provide visual explanations of the affected regions and estimate the severity of the disease to support clinical decision-making.
 
-Existing deep learning systems primarily focus on binary classification and often fail to distinguish between bacterial pneumonia, viral pneumonia, and COVID-19.
-
-This project aims to develop a multimodal explainable deep learning framework capable of classifying chest X-ray images into:
-
-- Normal
-- Bacterial Pneumonia
-- Viral Pneumonia
-- COVID-19
-
-The proposed system will utilize ensemble deep learning models and explainable AI techniques to improve diagnostic support.
+Therefore, this project proposes a **Multimodal Explainable Deep Learning Framework for Pneumonia Detection and Severity Assessment** that integrates chest X-ray imaging and clinical data using DenseNet121 and Explainable AI techniques. The framework aims to classify patients as **Normal** or **Pneumonia**, estimate the affected lung area, assess disease severity, and generate interpretable results to assist healthcare professionals in making faster and more informed diagnostic decisions.
